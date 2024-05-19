@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dice Game
+
+This is a simple decentralized dice game built on the FANTOM Network. Players can place bets on whether the outcome of rolling a dice will be above or below a certain number.
+
+## Features
+
+- Players can place bets using FTM.
+- Two betting options: "Roll Under" and "Roll Over".
+- Smart contract handles bet calculations and payouts.
+- Web3 integration for interacting with the blockchain.
+- Responsive UI for easy gameplay on desktop.
+
+## Technologies Used
+
+- Solidity
+- Web3.js
+- NextJS
+- HTML/CSS
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/kiranjha/dice-game-task.git
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   cd myapp
+   npm i
 
-## Learn More
+3. Set up your environment variables in .env file according to .env.template.
 
-To learn more about Next.js, take a look at the following resources:
+   npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Run the Next app:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   npm run dev
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Live vercel link is given below:
+https://dice-game-k5enb1o4o-kirans-projects-89d70915.vercel.app/#
