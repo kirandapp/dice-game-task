@@ -40,4 +40,4 @@ To get started with the project, follow these steps:
    npm run dev
 
 #### Live vercel link is given below:
-https://dice-game-k5enb1o4o-kirans-projects-89d70915.vercel.app/#
+https://dice-game-task.vercel.app/
