@@ -28,7 +28,7 @@ To get started with the project, follow these steps:
 
 2. Install dependencies:
 
-   cd myapp
+   cd myapp<br>
    npm i
 
 3. Set up your environment variables in .env file according to .env.template.
