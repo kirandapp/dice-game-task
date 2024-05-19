@@ -1,0 +1,143 @@
+/* Dice.css */
+
+.dice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.dice-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.dice-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dice-info p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.dice-info .value {
+    font-weight: bold;
+    color: #000;
+}
+
+.dice-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.dice-actions {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dice-action {
+    display: inline-block;
+    /* Change display to inline-block to fit content */
+    padding: 10px 20px;
+    /* Add padding for better button appearance */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    background: linear-gradient(45deg, #FFD700, #FF8C00);
+    /* Gradient background with shades of yellow and orange */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.dice-action:hover {
+    transform: scale(1.1);
+}
+
+.dice-action p {
+    margin: 0;
+    /* Remove default margin */
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.bet-amount-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bet-amount-container input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.bet-amount-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.bet-amount-container button:hover {
+    background-color: #0056b3;
+}
+
+.profit-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.profit-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 10px;
+}
+
+.profit-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.profit-container p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10;
+}
